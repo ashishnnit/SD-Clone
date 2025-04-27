@@ -11,3 +11,4 @@ const unreadMessageSchema = new mongoose.Schema(
 
 const UnreadMessage = mongoose.model("UnreadMessage", unreadMessageSchema);
 export default UnreadMessage;
+
