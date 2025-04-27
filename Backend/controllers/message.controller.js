@@ -1,7 +1,7 @@
 import User from "../models/user.model.js";
 import Message from "../models/message.model.js";
 import UnreadMessage from "../models/UnreadMessage.model.js";
-import UserInteraction from "Backend/models/userInteraction.model.js";
+import UserInteraction from "/opt/render/project/src/Backend/models/userInteraction.model.js";
 import { getReceiverSocketId, getIO } from "../lib/socket.js";
 
 
